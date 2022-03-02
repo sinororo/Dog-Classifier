@@ -4,10 +4,13 @@ from .forms import imageDogForm
 
 # Create your views here.
 def index(request):
-    form = imageDogForm(request.POST or None)
+    form = imageDogForm(request.POST, request.FILES)
+
+    print("test")
 
     if form.is_valid():
-        print("Image Uploaded")
+        image = request.FILES['image']
+        print(image)
     
     context = {
         'form' : form,
