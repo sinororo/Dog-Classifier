@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from .models import imageDog
 from .forms import imageDogForm
 from fastbook import *
 from fastai.vision.all import *
