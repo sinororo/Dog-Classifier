@@ -1,0 +1,36 @@
+html, body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#imageForm {
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.result h3, .result p{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+h3{
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+img {
+    width: 40%;
+}
