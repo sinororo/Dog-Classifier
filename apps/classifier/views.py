@@ -23,7 +23,8 @@ def classify(img_file):
     return {
         'image' : image_uri,
         'category': classes[prediction[1].item()],
-        'probs': "{:.2%}".format(max(probs_list))
+        'probs': "{:.2%}".format(max(probs_list)),
+        'result': "It is {:.2%} {}!".format(max(probs_list), classes[prediction[1].item()])
     }
 
 # Create your views here.

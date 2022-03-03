@@ -14,7 +14,9 @@
     <div class="container">
         <div class="top text-center">
             <h3>Dog Classifer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quisquam.</p>
+            <h2>Meet the dog classifier! Just upload a picture of your dog here and it will give you its breed!</h2>
+            <p>Note that the program behind this learned only pictures of a bulldog, dalmatian, german shepherd, golden retriever, and a shih tzu. 
+                <br> It will not be able to give a sensilbe answer for other breeds of dogs, hotdogs, cats, and the face of your human friend.</p>
 
         </div>
         <form method="POST" id="imageForm" enctype="multipart/form-data">
@@ -26,8 +28,7 @@
         </form>
         <div class="result text-center" id="result">
             <img class="img-fluid rounded-4 mx-auto d-block"src="{{ result.image }}">
-            <h3>{{ result.category }}</h3>
-            <p>{{ result.probs }}</p>
+            <h4> {{ result.result}} </h4>
         </div>
     </div>
 
