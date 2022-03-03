@@ -25,6 +25,23 @@ html, body{
     margin: 0.5rem;
 }
 
+.navbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.navbar .btn {
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer; 
+}
+
+.navbar .btn:hover {
+    transform: scale(1.5)
+}
+
+
 h3{
     font-size: 1.6em;
     font-weight: 500;
