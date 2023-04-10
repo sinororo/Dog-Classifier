@@ -2,7 +2,7 @@
 
 > A simple web application implemenation of a [Deep Learning Model](https://www.kaggle.com/sinoro12/dog-classifier-fastai/notebook) made by [Signour](https://www.linkedin.com/in/signour-sigmeund-melo-63aa791aa/)
 
-[Live Site Demo](https://dog-classifier-fastai.herokuapp.com/)
+[Live Site Demo](https://www.linkedin.com/feed/update/urn:li:activity:6905530762024615936/)
 
 ### Setup
 
